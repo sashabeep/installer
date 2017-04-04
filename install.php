@@ -11,6 +11,27 @@ if(extension_loaded('xdebug')){
 }
 
 $InstallData = array(
+	'evo1.2.1' => array(
+		'tree' => 'Evolution',
+		'name' => 'Evo 1.2.1',
+		'link' => 'https://github.com/modxcms/evolution/archive/1.2.1.zip',
+	    'location' =>'install/index.php'
+	),
+	
+	'evo1.1_fix' => array(
+		'tree' => 'Evolution',
+		'name' => 'Evo 1.1 fix',
+		'link' => 'https://github.com/modxcms/evolution/archive/1.1.1_security_fix.zip',
+	    'location' =>'install/index.php'
+	),
+	
+	'evo1.1&UP' => array(
+		'tree' => 'Evolution',
+		'name' => 'Last Master gitHub',
+		'link' => 'https://github.com/modxcms/evolution/archive/master.zip',
+	    'location' =>'install/index.php'
+	),
+	
 	'evo1.0.15' => array(
 		'tree' => 'Evolution',
 		'name' => 'MODX Evolution 1.0.15 (31.10.2014)',
